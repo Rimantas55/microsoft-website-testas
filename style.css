@@ -1,0 +1,198 @@
+/*mobile first*/
+header {
+    background-color: white;
+}
+
+.logo img {
+    max-width: 40%;
+}
+
+.wrapper {
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+nav {
+    padding-bottom: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.2em;
+    display: block;
+}
+
+nav a:hover {
+    background-color: rgba(0,0,0, 0.7);
+    color: white;
+}
+
+/*section1*/
+.section1 {
+    background-image: url("images/img1.jpg");
+    background-size: cover;
+    background-position: center;
+    min-height: 46vh;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h1 {
+    background-color: rgba(0,0,0, 0.7);
+    color: white;
+    display: inline-block;
+    padding: 15px 15px;
+    margin: 50px 0 70px 0;
+
+}
+
+section div a {
+    background-color: black;
+    color: white;
+    padding: 15px;
+}
+
+
+/*section2 about us*/
+.section2 {
+    background-image: url("images/img2.jpg");
+    background-size: cover;
+    background-position: center;
+    min-height: 46vh;
+    /*margin: 0 auto;*/
+    text-align: left;
+    padding: 40px 10px;
+}
+
+.span-h2 {
+    background-color: black;
+    color: white;
+    padding: 15px;
+}
+
+.section2-content {
+    background-color: rgba(0,0,0, 0.5);
+    padding: 15px;
+    color: white;
+}
+
+/*section3 Services*/
+.section3 {
+    background-image: url("images/img3.jpg");
+    background-size: cover;
+    background-position: center;
+    min-height: 46vh;
+    text-align: right;
+    padding: 40px 10px;
+}
+
+.span-h3 {
+    background-color: black;
+    color: white;
+    padding: 15px;
+}
+
+.section3-content {
+    background-color: rgba(0,0,0, 0.5);
+    padding: 15px;
+    color: white;
+    text-align: left;
+}
+
+/*section4 Contacts*/
+.section4 {
+    background-image: url("images/img4.jpg");
+    background-size: cover;
+    background-position: center;
+    min-height: 46vh;
+    text-align: center;
+    padding: 40px 10px;
+}
+
+.span-h4 {
+    background-color: rgba(0,0,0, 0.5);
+    color: white;
+    padding: 15px;
+}
+
+.section4-contacts {
+    background-color: rgba(0,0,0, 0.5);
+    padding: 15px;
+    color: white;
+}
+
+ol {
+   padding-left: 40px;
+   text-align: left;
+}
+
+section div .p {
+    padding: 15px;
+    background-color: rgba(0,0,0, 0.5);
+    /*background-color: red;*/
+    color: white;
+    margin: 16px 0;
+}
+
+/*footer*/
+footer {
+    padding: 40px 0;
+    text-align: center;
+    background-color: #131313;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+footer a {
+    margin-left: 10px;
+}
+
+footer a:link {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+footer a:visited {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+/*desktop @media */
+@media only screen and (min-width:600px){ /*600 ir daugiau rodyk ir sita css*/
+
+    .wrapper, .section2, .section3, .section-contacts{
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+
+    .wrapper {
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+   }
+
+    header {
+        background-color: #131313;
+    }
+
+    .logo img {
+        max-width: 40%;
+    }
+
+    nav {
+        padding: 20px 0;
+    }
+
+    nav a {
+        text-decoration: none;
+        color: white;
+        font-size: 1.2em;
+        display: inline;
+        margin-left: 20px;
+    }
+
+    nav a:hover {
+        background-color: orange;
+        color: black;
+        padding: 10px;
+    }
+}
