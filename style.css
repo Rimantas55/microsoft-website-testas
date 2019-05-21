@@ -1,6 +1,7 @@
 /*mobile first*/
 header {
     background-color: white;
+    text-align: center;
 }
 
 /*juodas img*/
@@ -18,10 +19,9 @@ header {
     }
 }
 
-.wrapper {
+.wrapper-sections {
     max-width: 1000px;
     margin: 0 auto;
-    text-align: center;
 }
 
 nav {
@@ -170,9 +170,15 @@ footer a:visited {
 /*desktop @media */
 @media only screen and (min-width:600px){ /*600 ir daugiau rodyk ir sita css*/
 
-    .wrapper, .section2, .section3, .section-contacts{
+    .wrapper {
         max-width: 1000px;
         margin: 0 auto;
+    }
+
+    .wrapper {
+        max-width: 1000px;
+        margin: 0 auto;
+        text-align: center;
     }
 
     .wrapper {
