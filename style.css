@@ -3,8 +3,19 @@ header {
     background-color: white;
 }
 
+/*juodas img*/
 .logo img {
-    max-width: 40%;
+    max-width: 100%;
+}
+
+/*juodas logo dingsta mobile ir atsiranda baltas*/
+@media only screen and (max-width:599px) {
+    .logo1 {
+        display: none;
+    }
+    .logo img {
+        max-width: 50%;
+    }
 }
 
 .wrapper {
@@ -174,8 +185,12 @@ footer a:visited {
         background-color: #131313;
     }
 
-    .logo img {
-        max-width: 40%;
+    div.logo {
+        max-height: 100%;
+    }
+
+    .logo2 {
+        display:none;
     }
 
     nav {
